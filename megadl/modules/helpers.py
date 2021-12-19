@@ -123,7 +123,7 @@ ABUT_BUTTONS=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Source Code 🗂", url="https://github.com/Itz-fork/Mega.nz-Bot"
+                        "Source Code 🗂", url="https://github.com/"
                     )
                 ],
                 [
@@ -165,7 +165,7 @@ async def meganz_cb(megabot: Client, query: CallbackQuery):
         return
       else:
         pass
-    await query.edit_message_text("**Here is The Help Of Mega.nz Uploader Module** \n\n\n  ✘ First Send or Forward a File to Me. \n\n  ✘ Then Reply to that file with `/upload` command \n\n  ✘ Wait till It Download and Upload That File to Mega.nz \n\n**Made with ❤️ by @NexaBotsUpdates**", reply_markup=MODULES_HELP)
+    await query.edit_message_text("**Here is The Help Of Mega.nz Uploader Module** \n\n\n  ✘ First Send or Forward a File to Me. \n\n  ✘ Then Reply to that file with `/upload` command \n\n  ✘ Wait till It Download and Upload That File to Mega.nz \n\n", reply_markup=MODULES_HELP)
   
   elif query.data == "meganzimportercb":
     user_id = query.from_user.id
