@@ -47,7 +47,7 @@ ERROR_TEXT = """
 
 Log: {}
 
-Save the Log file and Send it to @Nexa_bots for Help :)
+Suck my dick
 """
 
 START_TEXT="""
