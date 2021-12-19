@@ -23,10 +23,10 @@ async def inline_megadl(client, query):
         megadl_q = query.query.strip().lower()
         if megadl_q.strip() == "":
             aboutinlinemsg = """
-            ✪ **[Mega.nz-Bot](https://github.com/Itz-fork/Mega.nz-Bot)**
-`A Simple ` [Open Source](https://github.com/Itz-fork/Mega.nz-Bot)` Telegram Bot to Do `[More](https://github.com/Itz-fork/Mega.nz-Bot#features)` with Mega.nz Cloud Storage.`
+            ✪ **[Mega.nz-Bot](https://github.com/)**
+`Bruh`
                 
-**Developed with ❤️ by [Itz-fork](https://github.com/Itz-fork)**
+**Developed For Mega RSS**
 """
             helpinlinemsg = """
 **Hey, Choose the help mod using below buttons 😇**
@@ -62,7 +62,7 @@ async def inline_megadl(client, query):
                     await client.answer_inline_query(
                         query.id,
                         results=answers,
-                        switch_pm_text=f"Only Admins Can Use Bot's Inline Dwonload Mode!",
+                        switch_pm_text=f"Only Uploader can use it fuckoff!",
                         switch_pm_parameter="inline",
                         cache_time=10)
                     return
